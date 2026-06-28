@@ -197,36 +197,7 @@ nav ul li a.active {
 
     font-size:25px;
 
-}
-
-/* ==========================
-   CONTADOR
-========================== */
-
-.contador{
-
-    padding:80px;
-
-    text-align:center;
-
-}
-
-.contador h2{
-
-    font-size:45px;
-
-    color:#ffb300;
-
-    margin-bottom:20px;
-
-}
-
-.contador p{
-
-    font-size:22px;
-
-}
-    
+}  
 
 /* --- Hero Intro --- */
 .ingressos-hero {
