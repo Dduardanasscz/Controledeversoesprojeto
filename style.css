@@ -197,36 +197,7 @@ nav ul li a.active {
 
     font-size:25px;
 
-}
-
-/* ==========================
-   CONTADOR
-========================== */
-
-.contador{
-
-    padding:80px;
-
-    text-align:center;
-
-}
-
-.contador h2{
-
-    font-size:45px;
-
-    color:#ffb300;
-
-    margin-bottom:20px;
-
-}
-
-.contador p{
-
-    font-size:22px;
-
-}
-    
+}  
 
 /* --- Hero Intro --- */
 .ingressos-hero {
@@ -918,4 +889,76 @@ transform:translateY(0);
 
 }
 
+}
+
+/* ==========================
+   DATAS DO EVENTO
+========================== */
+
+.datas{
+    padding:80px 10%;
+    text-align:center;
+    background:#181818;
+}
+
+.datas h2{
+    color:#ffb300;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.datas p{
+    font-size:18px;
+    margin-bottom:40px;
+}
+
+.dias{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.dia{
+    width:140px;
+    background:#222;
+    border-radius:15px;
+    padding:25px;
+    transition:.3s;
+}
+
+.dia:hover{
+    transform:translateY(-8px);
+    background:#ffb300;
+    color:#111;
+}
+
+.dia h3{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.dia span{
+    font-size:16px;
+    font-weight:500;
+}
+/* ==========================
+   HORÁRIO
+========================== */
+
+.horario{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.horario h2{
+    color:#ffb300;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.horario p{
+    font-size:18px;
+    margin-bottom:10px;
+    line-height:30px;
 }
