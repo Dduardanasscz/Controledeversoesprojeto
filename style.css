@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(180deg, #0b0b0b 0%, #141414 50%, #080808 100%);
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+/* Header / Navbar */
+header {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    background: rgba(11, 11, 11, 0.75);
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Logo */
+.logo h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.logo h1 span {
+    color: #fcb305;
+}
+
+/* Navegação */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hero */
+.ingressos-hero {
+    padding: 90px 8% 50px 8%;
+    text-align: center;
+}
