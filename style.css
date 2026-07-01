@@ -815,9 +815,7 @@ opacity:1;
 transform:translateY(0);
 
 }
-
-<<<<<<< HEAD
-=======
+}
 
 .datas{
     padding:80px 10%;
@@ -866,8 +864,6 @@ transform:translateY(0);
     font-size:16px;
     font-weight:500;
 }
-/* ==========================
-   HORÁRIO
 
 .horario{
     padding:80px 10%;
@@ -960,5 +956,201 @@ transform:translateY(0);
         font-size:18px;
     }
 
->>>>>>> 43cb80a82d3250582f15e94a06982afa191066a2
+}
+
+/* RESET */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+/* BODY */
+body {
+background: #0f0f0f;
+color: #fff;
+line-height: 1.6;
+}
+
+/* HEADER */
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 10%;
+background: #111;
+position: sticky;
+top: 0;
+z-index: 1000;
+border-bottom: 1px solid #222;
+}
+
+.expo_logo h1 {
+color: #fff;
+font-size: 26px;
+}
+
+.expo_logo span {
+color: #ffb300;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 25px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: #fff;
+transition: 0.3s;
+}
+
+nav ul li a:hover {
+color: #ffb300;
+}
+
+/* BANNER */
+.expo_banner {
+height: 80vh;
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("img/banner.jpg") center/cover no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 20px;
+}
+
+.expo_banner_texto h2 {
+font-size: 48px;
+margin-bottom: 15px;
+}
+
+.expo_banner_texto p {
+font-size: 18px;
+margin-bottom: 25px;
+color: #ddd;
+}
+
+.expo_botao {
+display: inline-block;
+padding: 12px 25px;
+background: #ffb300;
+color: #000;
+font-weight: 600;
+text-decoration: none;
+border-radius: 8px;
+transition: 0.3s;
+}
+
+.expo_botao:hover {
+background: #e6a200;
+transform: scale(1.05);
+}
+
+/* SOBRE */
+.expo_sobre {
+padding: 80px 10%;
+text-align: center;
+background: #141414;
+}
+
+.expo_sobre h2 {
+font-size: 32px;
+margin-bottom: 15px;
+}
+
+.expo_sobre p {
+color: #ccc;
+max-width: 700px;
+margin: auto;
+}
+
+/* DESTAQUES */
+.expo_destaques {
+padding: 80px 10%;
+text-align: center;
+}
+
+.expo_destaques h2 {
+font-size: 32px;
+margin-bottom: 40px;
+}
+
+.expo_cards {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 25px;
+}
+
+.expo_card {
+background: #1a1a1a;
+border-radius: 10px;
+overflow: hidden;
+padding-bottom: 20px;
+transition: 0.3s;
+}
+
+.expo_card:hover {
+transform: translateY(-8px);
+}
+
+.expo_card img {
+width: 100%;
+height: 180px;
+object-fit: cover;
+}
+
+.expo_card h3 {
+margin: 15px 0 10px;
+color: #ffb300;
+}
+
+.expo_card p {
+color: #ccc;
+font-size: 14px;
+margin: 5px 0;
+}
+
+/* CONTADOR */
+.expo_contador {
+padding: 80px 10%;
+text-align: center;
+background: #141414;
+}
+
+.expo_contador h2 {
+font-size: 32px;
+margin-bottom: 20px;
+}
+
+.expo_contador p {
+font-size: 18px;
+color: #ddd;
+line-height: 2;
+}
+
+/* FOOTER */
+footer {
+padding: 30px 10%;
+text-align: center;
+background: #111;
+border-top: 1px solid #222;
+}
+
+.expo_redes {
+margin-top: 15px;
+}
+
+.expo_redes a {
+color: #fff;
+margin: 0 10px;
+font-size: 20px;
+transition: 0.3s;
+}
+
+.expo_redes a:hover {
+color: #ffb300;
 }
