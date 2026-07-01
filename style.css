@@ -240,9 +240,9 @@ nav ul li a.active {
 }
 
 .cards{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-    gap:30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
 }
 
 .card{
@@ -966,6 +966,7 @@ opacity:0;
 transform:translateY(30px);
 
 }
+}
 
 to{
 
@@ -1025,6 +1026,7 @@ transform:translateY(0);
 }
 /* ==========================
    HORÁRIO
+========================== */
 
 .horario{
     padding:80px 10%;
@@ -1045,26 +1047,10 @@ transform:translateY(0);
 }
 
 .cards{
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
 }
-
-.card{
-    background: #141414;
-    padding: 25px;
-    border-radius: 15px;
-    width: 250px;
-    text-align: center;
-    transition: 0.3s;
-}
-
-.card:hover{
-    transform: translateY(-8px);
-    border: 1px solid #fcb305;
-}
-
 
 
 
@@ -1117,4 +1103,143 @@ transform:translateY(0);
         font-size:18px;
     }
 
+}
+
+.pagina-local{
+    padding:140px 10% 60px;
+    text-align:center;
+}
+
+.local-evento{
+    padding:20px 0;
+}
+
+.nome-local{
+    font-size:24px;
+    color:#ffb300;
+    margin-top:10px;
+}
+
+.cidade-local{
+    font-size:18px;
+    color:#fff;
+    margin-bottom:15px;
+}
+
+.descricao-local{
+    margin-top:15px;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.local-cards{
+    background:none;
+    padding:40px 0;
+}
+
+.dicas{
+    margin-top:30px;
+    background:rgba(255,255,255,.05);
+    padding:30px;
+    border-radius:15px;
+}
+
+.dicas h3{
+    font-size:24px;
+    color:#ffb300;
+    margin-bottom:15px;
+}
+
+.dicas ul{
+    list-style:none;
+    padding:0;
+    text-align:left;
+    max-width:600px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.dicas i{
+    color:#ffb300;
+}
+
+.mapa{
+    margin-top:40px;
+    padding:20px 0;
+}
+
+.mapa h3{
+    font-size:28px;
+    color:#ffb300;
+    margin-bottom:20px;
+}
+
+.mapa-container{
+    width:100%;
+    max-width:800px;
+    margin:auto;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+.mapa-iframe{
+    width:100%;
+    height:450px;
+    border:0;
+}
+
+/* ==========================================================================
+   ESTILOS EXCLUSIVOS DO LINE-UP (CORREÇÃO DO PROBLEMA DO CARD AMARELO)
+   ========================================================================== */
+
+.cards-lineup {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+}
+
+.card-lineup {
+    background: #141414;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.card-lineup:hover {
+    transform: translateY(-8px);
+    border: 1px solid #fcb305;
+}
+
+.card-lineup h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.card-lineup img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.card-lineup:hover img {
+    transform: scale(1.05);
+}
+
+.card-lineup p {
+    color: #d6d6d6;
+    margin-top: 8px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.card-lineup i {
+    color: #fcb305;
+    margin-right: 6px;
 }
